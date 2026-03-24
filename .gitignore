@@ -1,0 +1,21 @@
+__pycache__/
+.jupyter_tmp/
+.venv/
+.vscode/
+
+# Ignore data inside the model folder
+model/Data/
+Data/
+
+# Ignore uploaded files and databases
+static/uploads/*
+!static/uploads/.gitkeep
+users.db
+instance/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
