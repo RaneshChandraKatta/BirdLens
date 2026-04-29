@@ -7,6 +7,7 @@ from werkzeug.utils import secure_filename
 import numpy as np
 from PIL import Image
 
+
 try:
     from keras import models
     MODEL_LOADED = True
